@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    position: fixed;
+    background-color: white;
+    /* width: 100vw; */
+    width: 100%;
+    height: 12rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+}
+.navbar{
+    background-color: white;
+    justify-content: space-between;
+    width: 96%;
+}
+.logo1 {
+    height: 8rem;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    margin: 2rem;
+}
+.home-living{
+    width: 8rem;
+}
+
+.right-nav {
+    display: flex;
+    /* width: 100rem; */
+    /* flex-direction: row-reverse; */
+}
+
+.search {
+    width: 30rem;
+    height: 4rem;
+    margin: 0 18px 0 8px;
+    border-radius: 5px;
+    border: 2px solid #8080804f;
+}
+
+.btn {
+    width: 9rem;
+    height: 4rem;
+    margin: 0 5px 0 0;
+    background-color: #8080800a;
+    border: 2px solid #8080804f;
+    border-radius: 10px;
+    font-family: 'Assistant', sans-serif, Helvetica, Arial, sans-serif;
+    font-size: 36px;
+}
+.btn:hover{
+    cursor:pointer ;
+    font-weight: bolder;
+}
+.profile-pic {
+    height: 50px;
+    width: 50px;
+}
+
+.wishlist-pic {
+    height: 50px;
+    width: 50px;
+}
+
+.bag-pic {
+    height: 50px;
+    width: 50px;
+}
+main{
+    background-color: white;
+}
+.top{
+    width: 100%;
+    margin: 15rem 0 0 0;
+}
+footer{
+    margin: 100px 0 0 0;
+    height: 75vh;
+}
+.foot-img{
+    width: 12vw;
+}
+.foot-img2{
+    width: 113px;
+    margin: 0 0 0 30px;
+}
+
+
+li:hover,img{
+    cursor: pointer;
+}
