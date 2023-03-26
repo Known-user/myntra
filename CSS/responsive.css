@@ -1,6 +1,6 @@
-@media screen and ( max-width:1550px ) {
+@media screen and ( max-width:2080px ) {
     header{
-        height: 12vh;
+        height: 27vh;
     }
     .navbar{
         flex-direction: column;
